@@ -1,0 +1,68 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environment ──
+venv/
+env/
+ENV/
+.venv/
+
+# ── Environment Variables ──
+.env
+.env.local
+.env.production
+
+# ── Flask ──
+instance/
+.webassets-cache
+flask_session/
+
+# ── Database ──
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Logs ──
+*.log
+logs/
+
+# ── Node / Frontend ──
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Compiled / Build ──
+*.egg-info/
+dist/
+build/
+*.egg
+MANIFEST
+
+# ── Testing ──
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb
