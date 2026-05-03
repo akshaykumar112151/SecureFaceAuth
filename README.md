@@ -1,15 +1,14 @@
 # SecureFaceAuth — Multi-Layer Biometric Authentication System with Real-Time Anti-Spoofing
 
-> **Final Year Engineering Project | Patent Pending**
+> **Final Year Engineering Project**
 > Hindustan College of Science and Technology
-> Developed by **Akshay Kumar**
+> Developed by **Group 11** — Akshay Kumar, Aryan Singh, Chetanya Kaushik, Gaurav Singh
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.1.3-black?logo=flask)](https://flask.palletsprojects.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791?logo=postgresql)](https://postgresql.org)
 [![DeepFace](https://img.shields.io/badge/DeepFace-Facenet512-orange)](https://github.com/serengil/deepface)
-[![License](https://img.shields.io/badge/License-Patent%20Pending-red)](./LICENSE)
 
 ---
 
@@ -331,17 +330,52 @@ D:\FaceAuth\
 
 ---
 
+## Requirements
+
+### System Requirements
+
+| Requirement | Version / Details                    |
+| ----------- | ------------------------------------ |
+| OS          | Windows 10/11 or Linux (Ubuntu 20+)  |
+| Python      | 3.10                                 |
+| Node.js     | 18+                                  |
+| PostgreSQL  | 17                                   |
+| FFmpeg      | Latest (required for voice features) |
+| RAM         | Minimum 8GB recommended              |
+| Webcam      | Required for face + liveness steps   |
+| Microphone  | Required for voice authentication    |
+
+### Python Dependencies (requirements.txt)
+
+```
+flask==3.1.3
+flask-jwt-extended==4.7.1
+flask-sqlalchemy==3.1.1
+flask-mail==0.10.0
+flask-cors==6.0.2
+deepface
+opencv-python==4.8.0.76
+mediapipe==0.10.9
+tensorflow-cpu==2.15.0
+librosa
+numpy==1.26.4
+psycopg2-binary==2.9.11
+```
+
+### Frontend Dependencies (package.json)
+
+```
+react 18
+vite
+react-webcam
+axios
+react-router-dom
+lucide-react
+```
+
+---
+
 ## Installation & Setup
-
-### Prerequisites
-
-| Requirement | Version                     |
-| ----------- | --------------------------- |
-| Python      | 3.10                        |
-| Node.js     | 18+                         |
-| PostgreSQL  | 17                          |
-| FFmpeg      | Latest (for voice features) |
-| OS          | Windows 10/11 or Linux      |
 
 ### 1. Clone the Repository
 
@@ -566,28 +600,18 @@ Subject: 🚨 Alert: Failed Login Attempt — SecureFaceAuth
 
 ---
 
-## Patent Notice
+## Authors — Group 11
 
-This project is submitted as a **final-year engineering project and patent application** at Hindustan College of Science and Technology. The 5-step sequential biometric authentication pipeline, step-wise spoof alert mechanism, and weighted multi-layer skin analysis system represent original contributions.
+| Name             | Roll Number   | Role                               | GitHub                                                       |
+| ---------------- | ------------- | ---------------------------------- | ------------------------------------------------------------ |
+| Akshay Kumar     | 2200640100014 | Backend & Database                 | [@akshaykumar112151](https://github.com/akshaykumar112151)   |
+| Aryan Singh      | 2200640100032 | Backend & Documentation            | [@aryansingh200529](https://github.com/aryansingh200529)     |
+| Chetanya Kaushik | 2200640100045 | Frontend & Testing                 | [@ChetanyaKaushik944](https://github.com/ChetanyaKaushik944) |
+| Gaurav Singh     | 2200640100058 | Frontend, Documentation & Research | [@Gaurav-singh9719](https://github.com/Gaurav-singh9719)     |
 
-> Patent filing is in progress. Unauthorized commercial use, reproduction, or distribution of the core authentication pipeline is prohibited.
-
----
-
-## Author
-
-**Akshay Kumar**
-Final Year Engineering Student
-Hindustan College of Science and Technology
-GitHub: [@akshaykumar112151](https://github.com/akshaykumar112151)
-
----
-
-## License
-
-This project is protected under a patent-pending license. The source code is made available for academic review and educational purposes only.
-
-Commercial use, reproduction, or distribution of the authentication pipeline without explicit written permission from the author is prohibited.
+**Institution:** Hindustan College of Science and Technology
+**Department:** Computer Science and Engineering
+**GitHub:** [@akshaykumar12151](https://github.com/akshaykumar112151)
 
 ---
 
